@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Bağlantı Ayarları">
+    <EditTextPreference
+        android:key="p2pPort"
+        android:title="Birebir Konuşma Portu"
+        android:summary="Uygulamanın kullandığı portu değiştirir."
+        android:defaultValue="9090"
+        android:dialogTitle="Birebir Konuşma Portu" />
+        <EditTextPreference
+            android:key="mcAdres"
+            android:title="Multicast Adresi"
+            android:summary="Multicast adresini değiştirir."
+            android:defaultValue="224.1.1.1"
+            android:dialogTitle="Multicast Adresi" />
+        <EditTextPreference
+            android:key="mcPort"
+            android:title="Multicast Portu"
+            android:summary="Multicast portunu değiştirir."
+            android:defaultValue="2018"
+            android:dialogTitle="Multicast Portu" />
+    </PreferenceCategory>
+</PreferenceScreen>
